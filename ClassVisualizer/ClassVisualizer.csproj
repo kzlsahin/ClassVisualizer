@@ -36,30 +36,6 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Class_Rules, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Class_Rules\Class_Rules.dll</HintPath>
-    </Reference>
-    <Reference Include="devDept.Eyeshot.Control.Win.v11, Version=11.0.796.0, Culture=neutral, PublicKeyToken=5385d83d2fb4d7d9, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\devDept Software\Eyeshot Ultimate 11\Bin\devDept.Eyeshot.Control.Win.v11.dll</HintPath>
-    </Reference>
-    <Reference Include="devDept.Eyeshot.Control.x86.Win.v11, Version=11.0.545.0, Culture=neutral, PublicKeyToken=c8a727666e3c0a09, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\devDept Software\Eyeshot Ultimate 11\Bin\x86\devDept.Eyeshot.Control.x86.Win.v11.dll</HintPath>
-    </Reference>
-    <Reference Include="devDept.Geometry.v11, Version=11.0.796.0, Culture=neutral, PublicKeyToken=9440825e8b4733bc, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\devDept Software\Eyeshot Ultimate 11\Bin\devDept.Geometry.v11.dll</HintPath>
-    </Reference>
-    <Reference Include="devDept.Graphics.Shaders.v11, Version=11.0.796.0, Culture=neutral, PublicKeyToken=54ce5f5f803e4b42, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\devDept Software\Eyeshot Ultimate 11\Bin\devDept.Graphics.Shaders.v11.dll</HintPath>
-    </Reference>
-    <Reference Include="devDept.Graphics.Win.v11, Version=11.0.796.0, Culture=neutral, PublicKeyToken=f3cd437f0d8061b5, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\devDept Software\Eyeshot Ultimate 11\Bin\devDept.Graphics.Win.v11.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -76,12 +52,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Turk_Boy\Turk_Boy.vbproj">
-      <Project>{26490719-de57-40a0-a036-772f0ab31be7}</Project>
-      <Name>Turk_Boy</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

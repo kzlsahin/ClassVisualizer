@@ -12,5 +12,6 @@ namespace Tester.TestTypes
         public int porpNum { get; set; }
         public string propName { get; set; }
         public string propOwner { get; set; }
+        public List<TestClass3> Thirds { get; set; }
     }
 }
